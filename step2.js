@@ -11,6 +11,7 @@ function SumToZero(numbers) {
     }
     return false;
   }
+  // EXTRA CREDIT O(n)
   
   // 2)Unique Characters
   function UniqueChars(word) {
@@ -21,6 +22,7 @@ function SumToZero(numbers) {
     }
     return true;
   }
+  // EXTRA CREDIT O(1)
   console.log(UniqueChars('hello'));
   console.log(UniqueChars('world'));
 
@@ -34,7 +36,8 @@ function SumToZero(numbers) {
       }
     }
     return true;
-  }
+  } 
+  // EXTRA CREDIT O(1)
 console.log(isPangram('Pack my box with five dozen liquor jugs.')); 
 console.log(isPangram('This sentence is not a pangram.')); 
 
@@ -48,6 +51,6 @@ function find_longest_word(words) {
     }
     return longestWordLength;
   }
-  
+  // EXTRA CREDIT O(1)
   console.log(find_longest_word)(['blue', 'strawberry', 'pie']);
   console.log(find_longest_word)(['football', 'basketball', 'volleyball']);
